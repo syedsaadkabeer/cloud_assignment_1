@@ -1,0 +1,15 @@
+{
+  "name": "aws-task-manager",
+  "version": "1.0.0",
+  "description": "Small Node.js app for AWS EC2 + DynamoDB",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.862.0",
+    "@aws-sdk/lib-dynamodb": "^3.862.0",
+    "express": "^4.21.2"
+  }
+}
